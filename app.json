@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "SymptoVet",
+    "slug": "symptovet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "symptovet",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.symptovet.app"
+    },
+    "android": {
+      "package": "com.symptovet.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SymptoVet needs access to your photos so you can attach a patient's picture.",
+          "cameraPermission": "SymptoVet needs camera access so you can take a patient's picture."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#0D9488"
+        }
+      ],
+      "expo-asset",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
