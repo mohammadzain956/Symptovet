@@ -86,6 +86,7 @@ export const SYMPTOMS: string[] = [
   'Ocular discharge',
   'Squinting',
   'Cloudy eye',
+  'Bulging or displaced eye',
   'Vision loss',
 
   // Neurologic
