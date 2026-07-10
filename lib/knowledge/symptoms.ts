@@ -36,6 +36,7 @@ export const SYMPTOMS: string[] = [
   'Black tarry stool',
   'Regurgitation',
   'Excessive drooling',
+  'Difficulty eating / dropping food',
   'Abdominal pain',
   'Abdominal distension',
   'Non-productive retching',
@@ -53,6 +54,7 @@ export const SYMPTOMS: string[] = [
   'Frequent small urinations',
   'Blood in urine',
   'No urine production',
+  'Urine leaking (incontinence)',
   'Urinating outside litter box',
 
   // Respiratory
